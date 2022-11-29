@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/back_icon"
+        android:padding="7dp"
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+           android:text="
+इस पहेली का उद्देश्य बॉक्स के अंदर छिपे सभी शब्दों को ढूंढना और उन पर निशान लगाना है।
+
+शब्दों को क्षैतिज, लंबवत या तिरछे रखा जा सकता है।
+
+अक्सर छिपे हुए शब्दों की एक सूची प्रदान की जाती है।
+
+अधिक  चुनौतीपूर्ण बनाने के लिए, कई पहेलियों में एक विषय होता है जिसमें सभी छिपे हुए शब्द संबंधित होते हैं जैसे कि भोजन, जानवर, रंग, मशहूर हस्तियां या उनकी फिल्में।
+
+सरल रणनीति यह है कि जिस शब्द की खोज की जा रही है उसके भीतर 'उत्कृष्ट' अक्षरों की तलाश करें (यदि कोई शब्द सूची प्रदान की जाती है)।
+
+एक और रणनीति यह है कि खोजे जा रहे शब्द में दोहरे अक्षरों की तलाश की जाए (यदि कोई शब्द सूची प्रदान की जाती है) मददगार साबित होती है, क्योंकि दो अलग-अलग अक्षरों को खोजने की तुलना में दो समान अक्षरों को साथ-साथ खोजना आसान होता है।
+
+यदि कोई शब्द सूची प्रदान नहीं की जाती है, तो शब्दों को खोजने का एक तरीका पंक्ति दर पंक्ति जाना है।
+
+सबसे पहले, सभी क्षैतिज पंक्तियों को पीछे और आगे दोनों तरफ पढ़ा जाना चाहिए, फिर लंबवत, और इसी तरह।
+
+कभी-कभी पहेली ही मदद करेगी। जितने बड़े शब्द और जितने अधिक शब्द होंगे, उन्हें पहचानना उतना ही आसान होगा। कुछ कंप्यूटर-जनित पहेलियों में, यदि पहेली को हल करने वाले व्यक्ति को एक शब्द दिखाई देता है, तो उन्हें और खोजने के लिए केवल आसन्न पंक्तियों, स्तंभों या विकर्णों को देखना होगा। पहेली हर पंक्ति, स्तंभ, या विकर्ण का उपयोग कर सकती है - या बस हर दूसरी पंक्ति, स्तंभ या विकर्ण का उपयोग कर सकती है।"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mukta_regular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+</LinearLayout>

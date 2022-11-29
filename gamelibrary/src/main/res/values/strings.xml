@@ -1,0 +1,218 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VargGameSdk</string>
+    <string name="varg_pahlei_1">The object of the game is to fill all the rows and columns with the correct words.</string>
+    <string name="varg_pahlei_2">Each box can contain only 1 letter and words cannot extend beyond the number of boxes available.</string>
+    <string name="varg_pahlei_3">You can fill letters only, not numbers, spaces or symbols.</string>
+    <string name="varg_pahlei_4">Some boxes have smaller numbers on top, starting with 1 at the top left and increasing to the bottom right. These numbers are related to clues or questions about which word should go in the box.</string>
+    <string name="varg_pahlei_5">The number applies to the box it is in as well as the box to the right of or below it.</string>
+    <string name="varg_pahlei_6">Cross reference the number with the "Across" clue or the "Down" clue, respectively, to determine the answer to the boxes.</string>
+    <string name="varg_pahlei_7">The letters of words in rows can be used in words intersecting words in columns and vice versa. This can help you solve more words as you progress.</string>
+    <string name="varg_pahlei_8">Once you successfully fill all the rows and columns with the correct words, you win.</string>
+    <string name="settings_text">Setting</string>
+    <string name="version_code">Ver 0.1</string>
+    <string name="notification">Notificaton</string>
+    <string name="feedback">Feedback</string>
+    <string name="email_text">Email</string>
+    <string name="question_text">Ask Question</string>
+    <string name="faq_text">FAQ</string>
+    <string name="logout_text">Logout</string>
+    <string name="leaderboard_text">LeaderBoard</string>
+    <string name="aapka_leaderboard_text">Today’s Leaderboard</string>
+    <string name="share_text">Share</string>
+    <string name="apna_samaye_sudare">Play again and improve your time</string>
+    <string name="agla_shabd_text">Next Word</string>
+    <string name="namaste_text">Hi</string>
+    <string name="leaderboard_sign_in_text">Please sign in to view statistics</string>
+    <!-- <string name="leaderboard_sign_in_text1">कृपया साइन इन करें</string>-->
+    <string name="login_with_google">Sign in with google</string>
+    <string name="skip">Skip</string>
+    <string name="your_anwer_is_not_correct">Answer is not correct, \n Please try again. |</string>
+    <string name="next">Next</string>
+    <string name="kal_phir_milenge_ek_nayee_pahlei_ke_saath">See you again tomorrow, with a new puzzle!</string>
+    <string name="start_kare_text">Let\'s Start</string>
+    <string name="quit_game">Quit game</string>
+    <string name="reveal_word">Reveal Word</string>
+    <string name="reveal_letter">Reveal letter</string>
+    <string name="sbd_dekho">Reveal Word</string>
+    <string name="akshar_dekho">Reveal letter</string>
+
+    <string name="shabdam_text">Shabdam</string>
+    <string name="varg">Varg Paheli</string>
+    <string name="new_paheli">हर रोज एक नई पहेली</string>
+    <string name="status">STATUS</string>
+    <string name="all">All</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="var_paheli_text">Crossword</string>
+    <string name="how_to_play_game">How to play ‘Crossword’?</string>
+    <string name="do_not_show_again_text">Don\'t show next time</string>
+    <string name="hint_txt">Hint</string>
+    <string name="ashk_from_friend">Ask a friend</string>
+    <string name="aage_bdhe_">Proceed</string>
+    <string name="daily_puzzle_">A new puzzle everyday</string>
+    <string name="sabhi_delhe">View all</string>
+    <string name="sound_">Sound</string>
+
+
+    <string name="hi_hindi">Hi, </string>
+    <string name="new_game_tv_today_hindi">New games from TV Today</string>
+    <string name="tutorial_hindi">Tutorial</string>
+    <string name="share_app_hindi">Share</string>
+    <string name="setting_hindi">Setting</string>
+    <string name="priviacy_hindi">Privacy Policy</string>
+    <string name="game_language">Game Language</string>
+
+    <string name="varg_paheli_english_text">Varg Paheli</string>
+
+    <string name="old_puzzles">Login to play Old Puzzles</string>
+    <string name="congrulations_txt">Congratulations!!</string>
+    <string name="google_text_sign_in">Sign in with google</string>
+    <string name="login_to_play_past_puzzles">Login to play past puzzles</string>
+    <string name="hindi">Hindi</string>
+    <string name="english">English</string>
+
+    //shabdjaal--------------------strings below----------------------------------------------------
+
+    <string name="rule_1">The objective of this puzzle is to find and mark all the words hidden inside the box.</string>
+    <string name="rule_2">Words can be placed horizontally, vertically or diagonally.</string>
+    <string name="rule_3">Often a list of hidden words is provided.</string>
+    <string name="rule_4">To make it more challenging, many puzzles have a theme to which all the hidden words are related such as food, animals, colors, celebrities or their movies.</string>
+    <string name="rule_5">The simple strategy is to look for excellent letters within the word being searched for (if a word list is provided).</string>
+    <string name="rule_6">Another strategy is to look for double letters in the word being searched (if a word list is provided) which proves helpful, as finding two identical letters side by side is easier than searching for two different letters. Finding is easy.</string>
+    <string name="rule_7">If no word list is provided, one way to find words is to go row by line.</string>
+    <string name="rule_8">First, all horizontal lines should be read both backwards and forwards, then vertically, and so on.</string>
+    <string name="rule_9">Sometimes a riddle will help. The bigger the words and the more words, the easier it will be to identify them. In some computer-generated puzzles, if the person solving the puzzle sees one word, they only have to look at adjacent rows, columns, or diagonals to find more. The puzzle can use every row, column, or diagonal - or just use every other row, column, or diagonal.</string>
+
+    <string name="varg_">Varg Paheli</string>
+
+    <!-- <string name="leaderboard_sign_in_text1">Please Sign in to view statistics</string>-->
+    <!-- <string name="leaderboard_sign_in_text">आज का लीडरबॉर्ड देखने के लिए \n कृपया साइन इन करें</string>-->
+
+    <string name="shabdjal">Word Search</string>
+    <string name="paheli_text">इस शब्दजाल में बॉलीवुड की 12 अभिनेत्रियों के नाम छिपे हैं !</string>
+    <string name="filter">Filter</string>
+    <string name="leaderboard_not_found">LeaderBoard Not Found.</string>
+    <string name="kheilne_ka_tarika">How to play?</string>
+    <string name="aage_pbhe">Proceed</string>
+    <string name="agli_bar_na_dikaye">Don\'t show next time</string>
+    <string name="hint_">Hint</string>
+    <string name="sound">Sound</string>
+    <string name="kaise_khele">How to play ?</string>
+    <string name="view_all">View all</string>
+    <string name="info_">Info</string>
+
+
+
+    <string-array name="hint">
+        <item>Reveal letter</item>
+        <item>Reveal word </item>
+    </string-array>
+
+    <string name="game_language_hi">Game Language</string>
+    <string name="congrulation_text_">Congratulations!!</string>
+    <string name="login_for_old_puzzles">Login to play Old Puzzles</string>
+    <string name="shabdjaal_text_hidi_eng">Shabdjaal</string>
+
+    <string name="google_signin">Sign in with google</string>
+
+    <string name="Shabdjaal_for_eng_hi">Word Search</string>
+    <string name="view_all_hi_eng_txt">View all</string>
+    <string name="har_roj_ek_nai_paheli">A new puzzle everyday</string>
+    <string name="login_for_play_past_puzzles">Login to play past puzzles</string>
+
+
+    //shabdam----------------strings below---------------------------------------------------------
+    <string name="leaderboard_sign_in_text1">कृपया साइन इन करें</string>
+    <string name="guptshabd">गुप्त शब्द</string>
+    <string name="find_text">Find the missing letters of the hidden word with keyboard.</string>
+
+    <string name="a_text">A</string>
+    <string name="bha_text">B</string>
+    <string name="l_text">L</string>
+    <string name="shabd_text">Letter not in the word </string>
+    <string name="shabd_text1">Letter is elsewhere in the word</string>
+    <string name="shabd_text2">Correct letter</string>
+    <string name="continue_text">Continue</string>
+    <string name="community">Community</string>
+    <string name="time_content_text">05:10</string>
+    <string name="koi_baat_nahi_text">Don’t worry</string>
+    <string name="agli_baar_text">You will do better next time</string>
+    <string name="sahi_jabab_text">Correct Answer</string>
+    <string name="statistics_text">Statistics</string>
+    <string name="played_text">Played</string>
+    <string name="win_text" tools:ignore="DuplicateDefinition">% Win</string>
+    <string name="current_streak_text">Current \n Streak</string>
+    <string name="max_streak_text">Max Streak</string>
+    <string name="samay_laga_text">समय लगा </string>
+    <string name="gas_distribution_text">GUESS DISTRIBUTION</string>
+    <string name="hint_text">Hint</string>
+    <string name="answer_dekho_text">See Answer</string>
+    <string name="new_paheli_text">हर बार एक नई पहेली</string>
+    <string name="welcome_text">स्वागत है</string>
+    <string name="play_as_guest_text">Play as Guest</string>
+    <string name="aage_bade_button_text">Process</string>
+    <string name="checkbox_text">Don\'t show next time</string>
+    <string name="statistics_sign_in_text">आंकड़े देखने के लिए कृपया</string>
+    <string name="statistics_sign_in_text1">साइन इन करें</string>
+
+    // Right Answer Text
+    <string name="right_answer">व</string>
+    <string name="right_answer1">र्ण</string>
+    <string name="right_answer2">मा</string>
+    <string name="right_answer3">ला</string>
+
+    // Name
+    <string name="name">शिवा</string>
+    <string name="name1">शेखर</string>
+    <string name="name2">मयंक</string>
+    <string name="aap_text">आप</string>
+    <string name="please_login">Sign in</string>
+    <string name="ensure_internet">Please ensure internet connectivity.</string>
+    <string name="share_message_with_share">Share</string>
+    <string name="setting_nav">Setting</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_uses"><![CDATA[Terms & uses]]></string>
+    <string name="new_games_from_tv_today">New games from TV Today</string>
+    <string name="improve_time">Play again and improve your time</string>
+    <string name="privacy_policy_" translatable="false"><![CDATA[Privacy & policy]]></string>
+    <string name="submit_the_word">Submit the word</string>
+
+    <string name="hi_eng">Hi,</string>
+    <string name="new_games_from_tv_today_eng">New games from TV Today</string>
+    <string name="tutorial_eng">Tutorial</string>
+    <string name="share_eng">Share</string>
+    <string name="setting_eng">Setting</string>
+    <string name="privacy_policy_eng">Privacy Policy</string>
+    <string name="sound_h">Sound</string>
+    <string name="game_langauge">Game Langauge</string>
+    <string name="statistics_text_hindi">Your Statistics</string>
+    <string name="google_login_text">Sign in with google</string>
+    <string name="login_to_play_pastPpuzzle_txt">Login to play past puzzles</string>
+    <string name="login_txt_eng_hindi">Login</string>
+    <string name="delete_account_text">Delete Account</string>
+
+
+    //-----------------------------------------------------------------------------
+
+
+
+    <string name="choose_language">Choose Language</string>
+
+
+    <string name="shabdjaal_txt">Word Search</string>
+    <string name="varg_paheli_txt">Crossword</string>
+    <string name="a_new_puzzle_every_time">A new puzzle every time</string>
+    <string name="welcome_text_game">Crossword, Word Guess or Word Search, all are available here in one interesting, entertaining, informative, word power boosting Puzzles package.</string>
+    <string name="challenge_text">Play one or all, accept the challenge now.</string>
+    <string name="welcome_txt">Welcome</string>
+    <string name="let_started">Let\'s get started</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+
+    <string name="game_language_text">Game Language</string>
+
+    <string name="choose_language_text_">Choose Language</string>
+
+    <string name="shabd_pheli_text">Word puzzle</string>
+
+
+</resources>

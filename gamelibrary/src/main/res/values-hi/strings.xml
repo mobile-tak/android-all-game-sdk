@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VargGameSdk</string>
+    <string name="varg_pahlei_1">खेल का उद्देश्य सभी पंक्तियों और स्तंभों को सही शब्दों से भरना है।</string>
+    <string name="varg_pahlei_2">त्येक बॉक्स में केवल 1 अक्षर हो सकता है और शब्द उपलब्ध बॉक्स की संख्या से आगे नहीं बढ़ सकते हैं।</string>
+    <string name="varg_pahlei_3">तआप हमें संख्या, रिक्त स्थान या प्रतीक नहीं, केवल अक्षर ही दे सकते हैं।</string>
+    <string name="varg_pahlei_4">कुछ बक्सों में छोटी संख्याएँ हैं, जो ऊपर बाईं ओर 1 से शुरू होती हैं और नीचे दाईं ओर बढ़ती हैं। ये संख्याएं सुराग या प्रश्नों से संबंधित हैं कि बॉक्स में कौन सा शब्द जाना चाहिए।</string>
+    <string name="varg_pahlei_5">संख्या उस बॉक्स पर लागू होती है जिसमें वह है और साथ ही उसके दाईं ओर या उससे नीचे वाले बॉक्स पर भी लागू होता है।</string>
+    <string name="varg_pahlei_6">बक्सों के उत्तर को निर्धारित करने के लिए संख्या को क्रमशः "एक्रॉस" क्लू या "डाउन" क्लू से क्रॉस रेफ़रेंस करें।</string>
+    <string name="varg_pahlei_7">पंक्तियों में शब्दों के अक्षरों का उपयोग शब्दों में प्रतिच्छेद करने वाले स्तंभों में और इसके विपरीत शब्दों में किया जा सकता है। जैसे-जैसे आप आगे बढ़ेंगे, यह आपको अधिक शब्दों को हल करने में मदद कर सकता है।</string>
+    <string name="varg_pahlei_8">एक बार जब आप सभी पंक्तियों और स्तंभों को सही शब्दों से सफलतापूर्वक भर लेते हैं, तो आप जीत जाते हैं।</string>
+    <string name="settings_text">सेटिंग्स</string>
+    <string name="version_code">Ver 0.1</string>
+    <string name="notification">नोटिफिकेशन</string>
+    <string name="feedback">फीडबैक</string>
+    <string name="email_text">ईमेल</string>
+    <string name="question_text">प्रशन पूछें</string>
+    <string name="faq_text">FAQ</string>
+    <string name="logout_text">लॉग आउट</string>
+    <string name="leaderboard_text">लीडरबॉर्ड</string>
+    <string name="aapka_leaderboard_text">आपका लीडरबॉर्ड</string>
+    <string name="share_text">Share</string>
+    <string name="apna_samaye_sudare">अपना समय सुधारे।</string>
+    <string name="agla_shabd_text">अगला शब्द </string>
+    <string name="namaste_text">नमस्ते</string>
+    <string name="leaderboard_sign_in_text">आज का लीडरबॉर्ड देखने के लिए कृपया साइन इन करे</string>
+    <!--    <string name="leaderboard_sign_in_text1">कृपया साइन इन करें</string>-->
+    <string name="login_with_google">गूगल के साथ साइन इन करें</string>
+    <string name="skip">Skip</string>
+    <string name="your_anwer_is_not_correct">उत्तर सही नहीं है, \n कृपया पुनः प्रयास करें |</string>
+    <string name="next">Next</string>
+    <string name="kal_phir_milenge_ek_nayee_pahlei_ke_saath">कल फिर मिलेंगे, एक नयी पहेली के साथ !</string>
+    <string name="start_kare_text">आएँ शुरू करें</string>
+    <string name="quit_game">Quit game</string>
+    <string name="reveal_word">Reveal Word</string>
+    <string name="reveal_letter">Reveal letter</string>
+    <string name="congrulations_txt">बधाई हो!!</string>
+    <string name="sbd_dekho">शब्द बताओ</string>
+    <string name="akshar_dekho">अक्षर बताओ</string>
+    <string name="aage_bdhe_">आगे बढ़ें</string>
+    <string name="sound_">साउंड</string>
+    <string name="game_language">भाषा चुनें</string>
+
+    <string name="var_paheli_text">वर्ग पहेली</string>
+
+    <string name="how_to_play_game">वर्ग पहेली खेलने का तरीका और नियम</string>
+
+    <string name="shabdam_text">शब्दम</string>
+    <string name="varg">वर्ग पहेली</string>
+    <string name="new_paheli">हर रोज एक नई पहेली</string>
+    <string name="status">STATUS</string>
+    <string name="all">All</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="ashk_from_friend">दोस्त से पूछो</string>
+
+    <string name="hi_hindi">नमस्ते, </string>
+    <string name="new_game_tv_today_hindi">टीवी टुडे के नए गेम</string>
+    <string name="tutorial_hindi">ट्यूटोरियल</string>
+    <string name="share_app_hindi">शेयर ऐप</string>
+    <string name="setting_hindi">सेटिंग</string>
+    <string name="priviacy_hindi">प्राइवेसी पालिसी</string>
+
+    <string name="hint_txt">हिंट</string>
+    <string name="do_not_show_again_text">अगली बार ना दिखाएँ</string>
+    <string name="daily_puzzle_">हर रोज एक नई पहेली</string>
+    <string name="sabhi_delhe">सभी देखें</string>
+
+    <string name="varg_paheli_english_text">वर्ग पहेली</string>
+
+    <string name="old_puzzles">पुरानी पहेँलिए खेलने के लिए लॉगिन करें</string>
+
+    <string name="login_to_play_past_puzzles">पुरानी पहेलियाँ खेलने के लिए लॉगिन करें</string>
+    <string name="google_text_sign_in">गूगल के साथ साइन इन करें</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="english">अंग्रेज़ी</string>
+
+    //Shabdjaal strings below--------------------------------------------------------------------------------------------------
+    <string name="rule_1">इस पहेली का उद्देश्य बॉक्स के अंदर छिपे सभी शब्दों को ढूंढना और उन पर निशान लगाना है।</string>
+    <string name="rule_2">शब्दों को क्षैतिज, लंबवत या तिरछे रखा जा सकता है।</string>
+    <string name="rule_3">अक्सर छिपे हुए शब्दों की एक सूची प्रदान की जाती है।</string>
+    <string name="rule_4">अधिक चुनौतीपूर्ण बनाने के लिए, कई पहेलियों में एक विषय होता है जिसमें सभी छिपे हुए शब्द संबंधित होते हैं जैसे कि भोजन, जानवर, रंग, मशहूर हस्तियां या उनकी फिल्में।</string>
+    <string name="rule_5">सरल रणनीति यह है कि जिस शब्द की खोज की जा रही है उसके भीतर \'उत्कृष्ट\' अक्षरों की तलाश करें (यदि कोई शब्द सूची प्रदान की जाती है)।</string>
+    <string name="rule_6">एक और रणनीति यह है कि खोजे जा रहे शब्द में दोहरे अक्षरों की तलाश की जाए (यदि कोई शब्द सूची प्रदान की जाती है) मददगार साबित होती है, क्योंकि दो अलग-अलग अक्षरों को खोजने की तुलना में दो समान अक्षरों को साथ-साथ खोजना आसान होता है।</string>
+    <string name="rule_7">यदि कोई शब्द सूची प्रदान नहीं की जाती है, तो शब्दों को खोजने का एक तरीका पंक्ति दर पंक्ति जाना है।</string>
+    <string name="rule_8">सबसे पहले, सभी क्षैतिज पंक्तियों को पीछे और आगे दोनों तरफ पढ़ा जाना चाहिए, फिर लंबवत, और इसी तरह।</string>
+    <string name="rule_9">कभी-कभी पहेली ही मदद करेगी। जितने बड़े शब्द और जितने अधिक शब्द होंगे, उन्हें पहचानना उतना ही आसान होगा। कुछ कंप्यूटर-जनित पहेलियों में, यदि पहेली को हल करने वाले व्यक्ति को एक शब्द दिखाई देता है, तो उन्हें और खोजने के लिए केवल आसन्न पंक्तियों, स्तंभों या विकर्णों को देखना होगा। पहेली हर पंक्ति, स्तंभ, या विकर्ण का उपयोग कर सकती है - या बस हर दूसरी पंक्ति, स्तंभ या विकर्ण का उपयोग कर सकती है।</string>
+
+    <string name="varg_">वर्ग पहेली</string>
+
+    <!--   <string name="leaderboard_sign_in_text1">Please Sign in to view statistics</string>-->
+
+    <string name="login_for_old_puzzles">पुरानी पहेँलिए खेलने के लिए लॉगिन करें</string>
+    <string name="shabdjal">शब्दजाल</string>
+    <string name="paheli_text">इस शब्दजाल में बॉलीवुड की 12 अभिनेत्रियों के नाम छिपे हैं !</string>
+    <string name="filter">Filter</string>
+    <string name="leaderboard_not_found">LeaderBoard Not Found.</string>
+    <string name="kheilne_ka_tarika">शब्दजाल खेलने का तरीका और नियम</string>
+    <string name="aage_pbhe">आगे बढ़ें</string>
+    <string name="agli_bar_na_dikaye">अगली बार ना दिखाएँ</string>
+    <string name="kaise_khele">कैसे खेलें ?</string>
+    <string name="hint_">हिंट</string>
+    <string name="sound">साउंड</string>
+    <string name="info_">Info</string>
+    <string name="view_all">सभी देखें</string>
+
+    <string name="view_all_hi_eng_txt">सभी देखें</string>
+
+    <string name="game_language_hi">भाषा चुनें</string>
+
+    <string name="congrulation_text_">बधाई हो!!</string>
+
+    <string name="shabdjaal_text_hidi_eng">शब्दजाल</string>
+    <string name="Shabdjaal_for_eng_hi">शब्दजाल</string>
+
+    <string name="google_signin">गूगल के साथ साइन इन करें</string>
+
+    <string name="har_roj_ek_nai_paheli">हर रोज एक नई पहेली</string>
+
+    <string name="login_for_play_past_puzzles">पुरानी पहेलियाँ खेलने के लिए लॉगिन करें</string>
+
+    <string-array name="hint">
+        <item>Reveal letter</item>
+        <item>Reveal word </item>
+    </string-array>
+
+    //shabdam strings below--------------------------------------------------------------------------------------------
+
+    <string name="guptshabd">गुप्त शब्द</string>
+
+    <string name="find_text">छिपे शब्द के मिटे अक्षर खोजिए कीबोर्ड के साथ। </string>
+
+    <string name="a_text">ऐ</string>
+    <string name="bha_text">भ</string>
+    <string name="l_text">ऌ</string>
+    <string name="shabd_text">अक्षर शब्द में नहीं है</string>
+    <string name="shabd_text1">अक्षर शब्द में कहीं और है</string>
+    <string name="shabd_text2">सही अक्षर</string>
+    <string name="continue_text">कंटिन्यू</string>
+
+    <string name="community">कम्युनिटी</string>
+
+    <string name="time_content_text">05:10</string>
+
+    <string name="koi_baat_nahi_text">कोई बात नही</string>
+    <string name="agli_baar_text">आप अगली बार अच्छा करेंगे </string>
+    <string name="sahi_jabab_text">सही जवाब </string>
+
+    <string name="statistics_text">स्टेटिस्टिक्स</string>
+    <string name="played_text">Played</string>
+    <string name="win_text" tools:ignore="DuplicateDefinition">% Win</string>
+    <string name="current_streak_text">Current \n Streak</string>
+    <string name="max_streak_text">Max Streak</string>
+    <string name="samay_laga_text">समय लगा </string>
+    <string name="gas_distribution_text">गेस डिस्ट्रीब्यूशन</string>
+    <string name="hint_text">हिंट</string>
+    <string name="answer_dekho_text">उत्तर देखो</string>
+
+    <string name="new_paheli_text">हर बार एक नई पहेली</string>
+    <string name="welcome_text">स्वागत है</string>
+    <string name="play_as_guest_text">Play as Guest</string>
+    <string name="aage_bade_button_text">आगे बढ़ें</string>
+    <string name="checkbox_text">अगली बार ना दिखाएँ</string>
+
+    <string name="leaderboard_sign_in_text1">कृपया साइन इन करें</string>
+    <string name="statistics_sign_in_text">आंकड़े देखने के लिए कृपया</string>
+    <string name="statistics_sign_in_text1">साइन इन करें</string>
+
+    // Right Answer Text
+    <string name="right_answer">व</string>
+    <string name="right_answer1">र्ण</string>
+    <string name="right_answer2">मा</string>
+    <string name="right_answer3">ला</string>
+
+    // Name
+    <string name="name">शिवा</string>
+    <string name="name1">शेखर</string>
+    <string name="name2">मयंक</string>
+    <string name="aap_text">आप</string>
+    <string name="please_login">Sign in</string>
+    <string name="ensure_internet">Please ensure internet connectivity.</string>
+    <string name="share_message_with_share">Share - Message with Share</string>
+    <string name="setting_nav">Setting</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_uses"><![CDATA[Terms & uses]]></string>
+    <string name="new_games_from_tv_today">New games from TV Today</string>
+    <string name="improve_time">अपना समय सुधारे।</string>
+    <string name="privacy_policy_">प्राइवेसी पालिसी</string>
+    <string name="submit_the_word"> शब्द जमा करें</string>
+
+    //hindi language text------------------------------------
+
+    <string name="hi_eng">नमस्ते,</string>
+    <string name="new_games_from_tv_today_eng">टीवी टुडे के नए गेम</string>
+    <string name="tutorial_eng">ट्यूटोरियल</string>
+    <string name="share_eng">शेयर ऐप</string>
+    <string name="setting_eng">सेटिंग</string>
+    <string name="privacy_policy_eng">प्राइवेसी पालिसी</string>
+    <string name="sound_h">साउंड</string>
+    <string name="game_langauge">भाषा चुनें</string>
+    <string name="statistics_text_hindi">आपकी स्टेटिस्टिक्स</string>
+
+    <string name="google_login_text">गूगल के साथ साइन इन करें</string>
+
+    <string name="login_to_play_pastPpuzzle_txt">पुरानी पहेलियाँ खेलने के लिए लॉगिन करें</string>
+    <string name="login_txt_eng_hindi"> लॉग इन</string>
+    <string name="delete_account_text">डिलीट अकाउंट</string>
+
+
+
+    //------------------------------------------------------------------------------
+
+
+
+    <string name="choose_language">Choose Language</string>
+
+
+
+    <string name="welcome_txt">स्वागत है</string>
+    <string name="let_started">आएँ शुरू करें</string>
+    <string name="sign_in_with_google">गूगल के साथ साइन इन करें</string>
+
+    <string name="shabdjaal_txt">शब्दजाल</string>
+    <string name="varg_paheli_txt">वर्ग पहेली</string>
+    <string name="a_new_puzzle_every_time">हर बार एक नई पहेली</string>
+    <string name="challenge_text">एक या सभी खेलें, अभी चुनौती स्वीकार करें।</string>
+    <string name="welcome_text_game">तक शब्द पहेलियों की दुनिया में आपका स्वागत है! शब्दम, शब्दजाल, वर्ग पहेली, सभी यहां एक रोचक, मनोरंजक, ज्ञानवर्धक, शब्द सामर्थ्य बढाने वाली हिंदी वर्ग पहेलियाँ पैकेज में उपलब्ध हैं।</string>
+
+    <string name="game_language_text">भाषा चुनें</string>
+
+    <string name="choose_language_text_">भाषा चुनें</string>
+
+    <string name="shabd_pheli_text">शब्द पहेलियाँ</string>
+
+</resources>

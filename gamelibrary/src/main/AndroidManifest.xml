@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tvtoday.gamelibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="false"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.GameLibrarySdk."
+        android:usesCleartextTraffic="true"
+        tools:ignore="Instantiatable">
+        <activity
+            android:name=".TestActvity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3793720534573472~9556835322" />
+
+
+        <service
+            android:name="com.clevertap.android.sdk.pushnotification.CTNotificationIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.clevertap.PUSH_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="8R9-65Z-R56Z" />
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="156-c2b" />
+        <meta-data
+            android:name="CLEVERTAP_USE_GOOGLE_AD_ID"
+            android:value="1" />
+
+        <activity
+            android:name=".core.views.activity.languageSelection.LanguageSelectionActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+
+        <activity
+            android:name=".core.views.activity.landingActivity.SignUpLandingActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+
+
+        <activity
+            android:name=".core.views.activity.homePage.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".core.views.activity.splashActivity.SplashActivityMerger"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".crosswordgamesdk.views.activities.varg_paheli_settingActivity.aboutCrossWord.AboutCrosswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.gameLanguage.LanguageSelectionVargPahheliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.englishVargPaheliGameActivity.EnglishVargPahleiGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.pastPuzzleCrossWord.monthlyPastPuzzleActivity.MonthlyPastPuzzleCrossWordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.pastPuzzleCrossWord.PastPuzzleCrosswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.waitingactivity.WaitingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.nav_drawer_tutorial.NavDrawerTutorialActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.uttarDekhoAnswerActivity.UttarDekhoAnswerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.leader_board_activity.LeaderBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.varg_paheli_settingActivity.VargPaheliSettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.crossWord_tutorial_activity.TutorialActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.sign_upActivity.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.vargPahleiGameRuleActivity.GameRuleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.vargPaheliStartGame.VargPaheliGameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".crosswordgamesdk.views.activities.splashScreen.SplashActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.englishShabdjaalPlayGame.EnglishShabdjaalPlayGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.gameLanguage.ShabdjaalGameLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.ShbdjaalPlayGame.ShabdjaalPlayGameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.waitingactivity.WaitingShabdActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.nav_drawer_tutorial.NavDrawerTutorialShabdjalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.leader_board_activity.LeaderBoardShabdjalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.shabdjaal_settingActivity.ShabdjalSettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.crossWord_tutorial_activity.TutorialShabdjalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.sign_upActivity.SignUpShabdjalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.ShabdjalGameRuleActivity.GameRuleShabdActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.past_puzzles_shabdjal.PastPuzzleActivityShabdjaal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.past_puzzles_shabdjal.monthlyPuzzleActivity.MonthlyPuzzleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <!--
+<activity
+            android:name="com.tvtoday.shabdjal_sdk.views.activities.splashScreen.SplashActivity"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".shabdjaalgamesdk.shabdviews.activities.splashScreen.SplashShabdjalActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.LanguageSelectionShabdamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shabdamgamesdk.ui.englishShabdam.englishGameActivity.EnglishGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.UserDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.ShabdamPaheliActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.TutorialActivityShabdam"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.ShabdamActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ShabdamBlankActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.StatisticsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.ShabdamLeaderBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ui.activity.ShabdamSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shabdamgamesdk.ShabdamSplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="@string/congrulation_text_"
+        android:textSize="45sp"/>
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="You did this puzzle.\nWait for new available soon"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        ></TextView>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/kal_phir_milenge_ek_nayee_pahlei_ke_saath"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/tvForPastPuzzleLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="@font/mukta_medium"
+        android:text="@string/login_for_old_puzzles"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="12:00"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        />
+
+
+    <ImageView
+        android:id="@+id/ivHome"
+        android:src="@drawable/ic_home_"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

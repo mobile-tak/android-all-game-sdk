@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:id="@+id/rl_cell_cont"
+    android:background="@drawable/border_cell_box">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLay"
+        android:background="@drawable/cell_bg_drawable"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@drawable/border_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tvCellNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="9sp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvInnerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

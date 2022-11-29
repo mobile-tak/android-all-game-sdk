@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+  android:layout_gravity="center"
+    android:layout_marginHorizontal="30dp"
+    android:elevation="5dp"
+    android:background="@drawable/bg_card_wrong_answer_shape"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_dia">
+
+        <TextView
+            android:id="@+id/tvQuestionInfo"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mukta_bold"
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:textSize="17sp"
+            android:text="@string/your_anwer_is_not_correct"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

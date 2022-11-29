@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".views.activities.past_puzzles_varg_pahlei.monthlyPuzzleActivity.MonthlyPuzzleActivity">
+
+    <LinearLayout
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/bottom_curve_tool_bar_drawable"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/iv_back_btn"
+            android:src="@drawable/back_icon"
+            android:layout_width="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="34dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/black"
+            android:text="अगस्त"
+            android:fontFamily="@font/mukta_extra_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="वर्ग पहेली"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mukta_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvmonthlyPuzzle"
+        android:layout_marginHorizontal="10dp"
+        android:paddingStart="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        app:spanCount="3"
+        tools:listitem="@layout/monthly_puzzle_layout"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/answer_bg.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_card_wrong_answer_shape.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_default_key.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_enter.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_grey.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_hint.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_hint_gray.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/bg_yellow.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/black_curve_button.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/black_lang_bg.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/black_menu_icon.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/curve_gray_btn_bg.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/hint_bottom_sheet_drawable.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/ic_menu_black.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/drawable/menu_.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_about_crossword.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_game.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_leader_board.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_setting.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_shabdam_paheli.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_shabdjaal_play_game.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_tutorial.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_english_varg_pahlei_game.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_game.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_game_rule_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_guest_play_tutorial.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_guest_play_tutorial_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_language_selection_shabdam.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_language_selection_varg_pahheli.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_leader_board.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_leader_board_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_leader_board_shabdam.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_main_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_monthly_past_puzzle_.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_monthly_past_puzzle_cross_word.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_nav_drawer_tutorial.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_nav_drawer_tutorial_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_past_puzzle_shabdjaal.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdam.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdam_blank.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdam_paheli.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdam_settings.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdjaal_game_language.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_shabdjaal_play_game_shabd.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_splash_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_splash_shabdam_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_statistics.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_test_actvity.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_tutorial.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_tutorial_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_tutorial_shabdam.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_user_detail.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_uttar_dekho_answer_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_varg_paheli_game.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_varg_paheli_game_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_varg_paheli_setting_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/activity_waiting_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/answer_completed_shabdjaal.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/calendar_open_layout_shabdjaal.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/getleaderboard_item_list_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/grid_inner_cell_layout_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/hint_bottom_sheet.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/hint_options_bottom_sheet.xml" value="0.10729166666666666" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/hint_options_bottom_sheet_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/how_to_play_dialog_shabd.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/kaise_khele_popup_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/kaise_khele_popup_layout_one.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/keyboard_shabd.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/language_selection_filter.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/leader_board_shabd_inner_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/monthly_puzzle_layout_rv_shbdjaal.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/nav_drawer_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/nav_drawer_rv_inner_layout.xml" value="0.1" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/nav_drawer_shabd_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/no_leader_board_data.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/no_shabdjaal_found.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/page_item_skip_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/pager_item_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/past_puzzle_filter_popup_shabdjaal.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/past_puzzle_outer_rv_item_shabdjaal.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/past_puzzle_rv_inner_layout_crossword.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/past_puzzle_rv_inner_layout_shabdjaal.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/question_info_shabd_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/rv_answer_inner_shabd_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/shabdam_lang_bottom_sheet_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/shabdjaal_language_bottom_sheet_layout_.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/statistics_popup_layout.xml" value="0.10092592592592593" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/utar_dekho_shabd_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/view_pager_inner_shabd_tutorial_.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/layout/wrong_answer_shabd_layout.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/menu/navigation_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/ezeiaTech_projects/vargGameSdk/gamelibrary/src/main/res/menu/navigation_menu_shabd.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

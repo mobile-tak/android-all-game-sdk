@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:context=".MainActivity"
+        tools:ignore="HardcodedText">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="5dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/ivHamburger"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="5dp"
+                            android:elevation="5dp"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_menu_black"/>
+
+                        <ImageView
+                            android:id="@+id/ivHome"
+                            android:layout_width="35dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_toRightOf="@+id/ivHamburger"
+                            android:elevation="5dp"
+                            android:src="@drawable/ic_home_" />
+
+                        <TextView
+                            android:id="@+id/ivUserName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_toStartOf="@id/ivLeaderBoard"
+                            android:layout_toEndOf="@id/ivHome"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                        <ImageView
+                            android:id="@+id/ivLeaderBoard"
+                            android:layout_width="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/ivSettingGame"
+                            android:contentDescription="TODO"
+                            android:elevation="5dp"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_black_leaderboard_icon" />
+
+                        <ImageView
+                            android:id="@+id/ivSettingGame"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_toLeftOf="@+id/rootView"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_centerInParent="true"
+                            android:elevation="5dp"
+                            android:padding="8dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/ic_setting_black" />
+
+                        <ImageView
+                            android:id="@+id/ivLanguageChange"
+                            android:layout_width="40dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentEnd="true"
+                            android:visibility="gone"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="14dp"
+                            android:elevation="5dp"
+                            android:src="@drawable/languagechange_icon" />
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="28dp"
+                            android:padding="1dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_centerInParent="true"
+                            android:background="#4267B2"
+                            android:id="@+id/rootView"
+                            android:orientation="horizontal"
+                            android:baselineAligned="false">
+
+                            <LinearLayout
+                                android:id="@+id/llHindi"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/shabdjaal_white_langugage_bg">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:id="@+id/tvHindi"
+                                    android:text="Hindi"
+                                    android:textColor="@color/black"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/llEng"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/shabdjaal_black_language_bg">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="match_parent"
+                                    android:id="@+id/tvEng"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:text="English"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.9"
+                        android:orientation="vertical">
+
+                       <!-- <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/adView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-3793720534573472/9326306002" />-->
+
+                        /**
+                        * Banner ad for Production below
+                        *
+                        */
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:id="@+id/lLAyBannerAd"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                      <!--  <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/adView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-3793720534573472/9326306002" />-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:visibility="visible"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/lLayAnswers"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="130dp"
+                                    android:layout_marginHorizontal="5dp"
+                                    android:layout_marginTop="15dp"
+                                    android:visibility="gone"
+                                    android:background="@drawable/answer_bg"
+                                    android:elevation="5dp"
+                                    android:padding="5dp">
+
+                                    <androidx.recyclerview.widget.RecyclerView
+                                        android:id="@+id/rvAnswers"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginHorizontal="5dp"
+                                        android:layout_marginTop="20dp"
+                                        android:elevation="5dp"
+                                        android:orientation="horizontal"
+                                        android:visibility="visible"
+                                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                                        tools:itemCount="4"
+                                        tools:listitem="@layout/rv_answer_inner_shabd_layout" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/tvQuestion"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="40dp"
+                                    android:layout_marginTop="20dp"
+                                    android:fontFamily="@font/mukta_bold"
+                                    android:gravity="center"
+                                    android:text=" "
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"
+                                    android:visibility="visible" />
+
+                                <!--<TextView
+                                    android:id="@+id/tvSubQuestionText"
+                                    android:layout_width="match_parent"
+                                    android:visibility="visible"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvQuestion"
+                                    android:layout_marginHorizontal="40dp"
+                                    android:layout_marginTop="20dp"
+                                    android:fontFamily="@font/mukta_bold"
+                                    android:gravity="center"
+                                    android:text=" क्या आप उन्हें ढूंढ सकते हैं "
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />-->
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="70dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:orientation="horizontal">
+
+                                    <FrameLayout
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <LinearLayout
+                                            android:layout_width="120dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="20dp"
+                                            android:gravity="center">
+
+                                            <LinearLayout
+                                                android:orientation="vertical"
+                                                android:id="@+id/rl_hint"
+                                                android:layout_width="100dp"
+                                                android:layout_height="40dp"
+                                                android:background="@drawable/yellow_curve_btn"
+                                                android:gravity="center">
+
+                                                <FrameLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <RelativeLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent">
+
+
+                                                        <androidx.appcompat.widget.AppCompatTextView
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:clickable="false"
+                                                            android:fontFamily="@font/mukta_medium"
+                                                            android:text="@string/hint_"
+                                                            android:layout_marginEnd="30dp"
+                                                            android:layout_centerInParent="true"
+                                                            android:visibility="visible"
+                                                            android:textColor="@color/black"
+                                                            android:textSize="15sp" />
+
+                                                    </RelativeLayout>
+
+                                                </FrameLayout>
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                    </FrameLayout>
+
+
+                                    <LinearLayout
+                                        android:id="@+id/lLayInfoQuestion"
+                                        android:layout_width="120dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginBottom="20dp"
+                                        android:gravity="center"
+                                        android:visibility="visible">
+
+                                        <LinearLayout
+                                            android:layout_width="100dp"
+                                            android:layout_height="40dp"
+                                            android:background="@drawable/yellow_curve_btn"
+                                            android:gravity="center">
+
+                                            <androidx.appcompat.widget.AppCompatTextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/mukta_medium"
+                                                android:text="@string/info_"
+                                                android:textColor="@color/black"
+                                                android:textSize="15sp" />
+
+                                            <androidx.appcompat.widget.AppCompatImageView
+                                                android:layout_width="20dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                app:srcCompat="@drawable/ic_question" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </RelativeLayout>
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2">
+
+                        <com.tvtoday.gamelibrary.shabdjaalgamesdk.shabd_word_search.WordSearchView
+                            android:id="@+id/wordsGrid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/cvBottomNavigation" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cvBottomNavigation"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:elevation="5dp"
+                            app:cardBackgroundColor="@color/black">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="15dp"
+                                        android:src="@drawable/ic_watch" />
+
+                                    <Chronometer
+                                        android:id="@+id/tv_timer_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="14dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="13dp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:layout_weight="1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:visibility="invisible"
+                                            android:layout_marginStart="15dp"
+                                            android:src="@drawable/ic_watch" />
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="13dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:id="@+id/tvAnswerCount"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="00"
+                                                android:textColor="@color/white"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="/"
+                                                android:textColor="@color/white"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:id="@+id/tvTotalQuestion"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="12"
+                                                android:textColor="@color/white"
+                                                android:textSize="13sp" />
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_weight="1"
+                                        android:textColor="@color/white"
+                                        android:textSize="12sp"
+                                        android:gravity="center"
+                                        android:id="@+id/tvGameDate"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/lLayHowToPlay"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="15dp"
+                                        android:src="@drawable/ic_question_mark" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginStart="13sp"
+                                        android:text="@string/kaise_khele"
+                                        android:textColor="@color/white"
+                                        android:textSize="13sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <!-- <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentBottom="true"
+                     android:orientation="vertical">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="60dp"
+                         android:background="@color/white"
+                         android:orientation="horizontal"
+                         android:padding="5dp">
+
+                         <LinearLayout
+                             android:layout_width="120dp"
+                             android:layout_height="match_parent"
+                             android:gravity="center">
+
+                             <LinearLayout
+                                 android:id="@+id/rl_hint"
+                                 android:layout_width="100dp"
+                                 android:layout_height="40dp"
+                                 android:background="@drawable/yellow_curve_btn"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatTextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_medium"
+                                     android:text="हिंट"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_marginLeft="10dp"
+                                     app:srcCompat="@drawable/ic_share_" />
+                             </LinearLayout>
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"
+                             android:gravity="center">
+
+                             <androidx.appcompat.widget.AppCompatImageView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 app:srcCompat="@drawable/ic_clock" />
+
+                             <Chronometer
+                                 android:id="@+id/tv_timer_text"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginStart="4dp"
+                                 android:text=""
+                                 android:textColor="@color/black"
+                                 android:textSize="13dp" />
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="120dp"
+                             android:layout_height="match_parent"
+                             android:gravity="center">
+
+                             <LinearLayout
+                                 android:id="@+id/lLayShowAnswer"
+                                 android:layout_width="110dp"
+                                 android:layout_height="40dp"
+                                 android:background="@drawable/dark_yellow_curve_btn"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatTextView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_medium"
+                                     android:text="दोस्त से पूछो"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_marginLeft="10dp"
+                                     app:srcCompat="@drawable/ic_share_" />
+                             </LinearLayout>
+                         </LinearLayout>
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:background="@color/black"
+                         android:orientation="horizontal"
+                         android:padding="5dp">
+
+                         <LinearLayout
+                             android:layout_width="60dp"
+                             android:layout_height="match_parent">
+
+                             <LinearLayout
+                                 android:id="@+id/lLayPreviousQuestion"
+                                 android:layout_width="50dp"
+                                 android:layout_height="40dp"
+                                 android:background="@drawable/curve_radius"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:id="@+id/ivBack"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_gravity="center"
+                                     app:srcCompat="@drawable/ic_back_btn_dark_gray" />
+                             </LinearLayout>
+
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1">
+
+                             <androidx.appcompat.widget.AppCompatTextView
+                                 android:id="@+id/question"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:fontFamily="@font/mukta_bold"
+                                 android:gravity="center"
+                                 android:paddingStart="5dp"
+                                 android:scrollbars="vertical"
+                                 android:textColor="@color/white"
+                                 android:textSize="15sp" />
+
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="60dp"
+                             android:layout_height="match_parent"
+                             android:gravity="center">
+
+                             <LinearLayout
+                                 android:id="@+id/lLayNextQuestion"
+                                 android:layout_width="50dp"
+                                 android:layout_height="40dp"
+                                 android:background="@drawable/silver_curve_rectangular_box_bg"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:id="@+id/ivNext"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_gravity="center"
+                                     app:srcCompat="@drawable/ic_arrow_right_side" />
+                             </LinearLayout>
+                         </LinearLayout>
+
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:background="@color/color_silverF1F2FA"
+                         android:orientation="vertical"
+                         android:padding="5dp">
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tvKa"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="क"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_kha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ख"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_ga"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ग"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_gha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="घ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_anga"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ङ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_cha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="च"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_chah"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="छ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_ja"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ज"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_jha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="झ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_ea"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ञ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+
+                         </LinearLayout>
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="3dp"
+                             android:orientation="horizontal">
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_ta"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ट"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tdha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ठ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_da"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ड"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_dha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ढ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_ada"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ण"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_tea"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="त"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_tha"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="थ"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_dea"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="द"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_marginRight="2dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_dhea"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="ध"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="40dp"
+                                 android:layout_weight="1"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <TextView
+                                     android:id="@+id/tv_na"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:fontFamily="@font/mukta_regular"
+                                     android:gravity="center"
+                                     android:text="नि"
+                                     android:textColor="@color/black"
+                                     android:textSize="15sp" />
+                             </LinearLayout>
+                         </LinearLayout>
+
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="3dp"
+                             android:orientation="horizontal">
+
+                             <LinearLayout
+                                 android:id="@+id/lLayQuestionBtn"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:layout_marginEnd="3dp"
+                                 android:layout_weight="2"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:src="@drawable/ic_question_mark" />
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:layout_weight="1"
+                                 android:orientation="vertical">
+
+                                 <LinearLayout
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:orientation="vertical">
+
+
+                                     <LinearLayout
+                                         android:layout_width="match_parent"
+                                         android:layout_height="wrap_content"
+                                         android:orientation="horizontal">
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_pa"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="प"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_fa"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="फ"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_aa"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="अ"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="2dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_bha"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="भ"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="2dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_ma"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="म"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_ya"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="य"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+                                     </LinearLayout>
+
+                                 </LinearLayout>
+
+                                 <LinearLayout
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_marginTop="3dp"
+                                     android:orientation="vertical">
+
+
+                                     <LinearLayout
+                                         android:layout_width="match_parent"
+                                         android:layout_height="wrap_content"
+                                         android:orientation="horizontal">
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_la"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="ल"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_va"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="व"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="3dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_sha"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="श"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="2dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_skha"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="ष"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_marginRight="2dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_sa"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="स"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+
+                                         <LinearLayout
+                                             android:layout_width="match_parent"
+                                             android:layout_height="40dp"
+                                             android:layout_weight="1"
+                                             android:background="@drawable/key_bg__curve_drawable"
+                                             android:gravity="center">
+
+                                             <TextView
+                                                 android:id="@+id/tv_ha"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="wrap_content"
+                                                 android:fontFamily="@font/mukta_regular"
+                                                 android:gravity="center"
+                                                 android:text="ह"
+                                                 android:textColor="@color/black"
+                                                 android:textSize="15sp" />
+                                         </LinearLayout>
+                                     </LinearLayout>
+                                 </LinearLayout>
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:id="@+id/lLayBackBtn"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:layout_marginLeft="3dp"
+                                 android:layout_weight="2"
+                                 android:background="@drawable/key_bg__curve_drawable"
+                                 android:gravity="center">
+
+                                 <androidx.appcompat.widget.AppCompatImageView
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:src="@drawable/ic_clear" />
+
+                             </LinearLayout>
+                         </LinearLayout>
+                     </LinearLayout>
+                 </LinearLayout>-->
+            </RelativeLayout>
+
+            <!--<LinearLayout
+                android:id="@+id/lLayProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>-->
+        </FrameLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navView"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNavDrawer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/nav_drawer_shabd_layout" />
+            </LinearLayout>
+
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/gif_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/giphy">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+    </FrameLayout>
+</FrameLayout>
+

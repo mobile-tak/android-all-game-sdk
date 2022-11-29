@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_bg" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_vargPahlei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/idVargPaheli"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/varg_paheli_img" />
+
+    <TextView
+        android:id="@+id/idVargPaheli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/mukta_bold"
+        android:text="@string/var_paheli_text"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idVargPaheli"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/mukta_bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="@string/daily_puzzle_"/>
+
+
+</RelativeLayout>

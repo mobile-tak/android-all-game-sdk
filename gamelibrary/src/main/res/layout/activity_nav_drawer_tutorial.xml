@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/back_icon"
+        android:padding="7dp"
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginHorizontal="10dp"
+           android:text="Simple crossword in Hindi – The logic of solving the Hindi crossword puzzle is no different than any other Crossword puzzle that you must have played in your life time, you get clues to find the correct word, the clues also provide the details on number of letters the word contains - like
+Simple clues:
+'Canine pet' (3) = DOG
+Clues with two ideas together, these are little complicated clues that hide 2 ideas together to form a word
+Anagram Crossword Clue –
+Then in crossword are what is usually called Anagrams
+You will often get a hint that is in the form of Anagram, which means the answer is hidden in one of the words of the crossword, rearrange the letters of one or more words to give the solution. Example “I am dot in a place” – decimal point
+Cryptic Crossword Clue
+As the name suggest, they use words that have 2 meaning. These clues can be complicated in nature
+Example – “Terrain ruined coach” – rearranging the letter for Terrain with “Coach” give you the word Trainer
+Crossword Clue with Sound / Phonetics
+These often use phrases such as 'sounds like' or 'we hear' The answer is found by thinking about how the clue's words sound. The answer may be straightforward or hidden in the answer.
+'The king has no successor, we hear' (4), this actually means – King has “No heir” to the throne.
+“No Heir” – sounds like “No Hair” – which means -  BALD"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mukta_regular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+</LinearLayout>

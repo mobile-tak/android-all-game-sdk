@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "244271318289",
+    "project_id": "crossword-hindi",
+    "storage_bucket": "crossword-hindi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244271318289:android:cef4e131640cbc8d1778b0",
+        "android_client_info": {
+          "package_name": "com.tvtoday.crosswordhindi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244271318289-34ahrbd0h51cof6da5tsm0n3kubtvj36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvtoday.crosswordhindi",
+            "certificate_hash": "adbeb378f6398c3c946b372fc2a78c0042a3db84"
+          }
+        },
+        {
+          "client_id": "244271318289-6cjm5nmei3224c4nesttjit4pd4nqa1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvtoday.crosswordhindi",
+            "certificate_hash": "8d8f9572b176980f5d1a7b8b64718313282a4be9"
+          }
+        },
+        {
+          "client_id": "244271318289-cc9udlmse2qalc1cflnr59i17h0cebr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvtoday.crosswordhindi",
+            "certificate_hash": "d16c98a780b879c094c85958800b4894efb6c2dd"
+          }
+        },
+        {
+          "client_id": "244271318289-g59k3sq02jntsfl7p7tis7ar1fh9qvu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvtoday.crosswordhindi",
+            "certificate_hash": "0240bbf675703cc970b26ae595ad273cc0409190"
+          }
+        },
+        {
+          "client_id": "244271318289-smbbmmvsppn1mjnv4c08dklcjclc27ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvtoday.crosswordhindi",
+            "certificate_hash": "299a0e4973ee950c620f944939c8e454fef06e58"
+          }
+        },
+        {
+          "client_id": "244271318289-v1np4f359vbaibqt4ptfscnolhn0gf78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv7IKdkWuy0UvN1-vkDFW_iIukDkTW3OU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244271318289-v1np4f359vbaibqt4ptfscnolhn0gf78.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "244271318289-rgqp4tr401aqe4pgtl652ia0cism2878.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aajtak.vargpaheli"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rLayBgImage"
+    android:background="@drawable/tutorial_paheli_screen"
+    tools:context=".shabdamgamesdk.ui.activity.ShabdamPaheliActivity">
+
+    <ImageView
+        android:id="@+id/iv_back_btn"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/back_icon"
+        android:tint="@color/white"
+        tools:ignore="UseAppTint"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivRuleHome"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/back_icon"
+        android:tint="@color/white"
+        android:visibility="visible"
+        tools:ignore="UseAppTint"/>
+
+    <ImageView
+        android:id="@+id/iv_LangChange"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:src="@drawable/white_icon_language"
+        android:tint="@color/white"
+        android:visibility="gone"
+        tools:ignore="UseAppTint"/>
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:background="#4267B2"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:id="@+id/llHindi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shabdam_white_langugae_bg">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvHindi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Hindi"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shabdam_black_language_bg">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvEng"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="English"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/aage_bade_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/check_box_btn"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/box_radius"
+        android:backgroundTint="@color/text_color_black"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/aage_bade_button_text"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/check_box_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="20dp"
+        android:buttonTint="@color/red"
+        android:text="@string/checkbox_text" />
+
+</RelativeLayout>

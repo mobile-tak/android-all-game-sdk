@@ -1,0 +1,3 @@
+package com.tvtoday.gamelibrary.shabdjaalgamesdk.shabdviews.activities.past_puzzles_shabdjal
+
+class PassCategoryModelShabdjaal(var date:String)

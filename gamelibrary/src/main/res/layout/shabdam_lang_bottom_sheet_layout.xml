@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lLayHindiLang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/curve_botom_sheet_grey"
+            android:paddingStart="17sp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/tvHindiLang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/hindi"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/black_bg_lan"
+            android:id="@+id/lLayEnglishLang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="17sp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/tvEngLang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/english"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/curve_gray_btn_bg"
+            android:id="@+id/lLayQuitGame"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingStart="15ssp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/mukta_medium"
+                android:gravity="center_vertical"
+                android:text="@string/quit_game"
+                android:textColor="@color/color_red"
+                android:textSize="13ssp" />
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
