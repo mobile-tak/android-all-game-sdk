@@ -432,11 +432,9 @@ class HomeActivity : BaseActivityMain(),View.OnClickListener {
 
         if(!TextUtils.isEmpty(MainCommonPref.getLangaugeStringPrefs(this@HomeActivity,MainCommonPref.Key.MAIN_APP_LANGUAGE)) &&
             MainCommonPref.getLangaugeStringPrefs(this@HomeActivity,MainCommonPref.Key.MAIN_APP_LANGUAGE).equals("english")) {
-
             iv_vargPahlei?.setImageDrawable(ContextCompat.getDrawable(this@HomeActivity, R.drawable.crossword_eng));
             ivShabdam?.setImageDrawable(ContextCompat.getDrawable(this@HomeActivity, R.drawable.shabdam_eng));
             ivShabdjaal?.setImageDrawable(ContextCompat.getDrawable(this@HomeActivity, R.drawable.shabdjaal_eng));
-
         }else{
             iv_vargPahlei?.setImageDrawable(ContextCompat.getDrawable(this@HomeActivity, R.drawable.varg_paheli_img));
             ivShabdam?.setImageDrawable(ContextCompat.getDrawable(this@HomeActivity, R.drawable.shabdam_));
@@ -516,6 +514,7 @@ class HomeActivity : BaseActivityMain(),View.OnClickListener {
                 }
 
             }
+
             R.id.login ->{
                 val intent = Intent(this, SignUpLandingActivity::class.java)
                 startActivity(intent)

@@ -12,13 +12,10 @@ android {
         targetSdk 32
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
     }
 
-    bundle {
-        language {
-            enableSplit = false
-        }
-    }
+
 
     buildTypes {
         debug {
@@ -42,6 +39,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+  /*   bundle {
+       language {
+           enableSplit = false
+       }
+   }*/
 }
 
 dependencies {

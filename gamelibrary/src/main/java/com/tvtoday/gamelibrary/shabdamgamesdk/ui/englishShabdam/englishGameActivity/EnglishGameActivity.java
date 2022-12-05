@@ -2291,9 +2291,19 @@ public class EnglishGameActivity extends AppCompatActivity implements View.OnCli
             mRewardedAd.setFullScreenContentCallback(null);
         }
 
-        mediaPlayer.stop();
-        mediaPlayerWrongAnswer.stop();
-        mediaPlayerGameComplete.stop();
+        if(mediaPlayer !=null){
+            mediaPlayer.stop();
+        }
+
+        if(mediaPlayerWrongAnswer !=null){
+            mediaPlayerWrongAnswer.stop();
+        }
+
+        if(mediaPlayerGameComplete !=null){
+            mediaPlayerGameComplete.stop();
+        }
+
+
         if (gamePresenter != null) {
             gamePresenter.onDestroy();
         }

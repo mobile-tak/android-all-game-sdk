@@ -64,28 +64,34 @@ class PastPuzzleActivityShabdjaal : ShabdjalBaseActivity(), View.OnClickListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_past_puzzle_shabdjaal)
 
-        intiViews()
+        try{
+            setContentView(R.layout.activity_past_puzzle_shabdjaal)
 
-        if(!TextUtils.isEmpty(PrefDataShabdjal.getAppLanguageStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_LANGUAGE)) &&
-            PrefDataShabdjal.getAppLanguageStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_LANGUAGE).equals("hindi")) {
-            val pastPuzzle = PastPuzzleShabdjaalRequest()
-            pastPuzzle.gameUserId = PrefDataShabdjal.getStringPrefs(
-                this@PastPuzzleActivityShabdjaal,
-                PrefDataShabdjal.Key.GAME_USER_ID)
-            pastPuzzle.lang_id = "1"
-            pastPuzzle.app_id = PrefDataShabdjal.getStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_ID)
-            getPastPuzzle(pastPuzzle)
-        }else{
-            val pastPuzzle = PastPuzzleShabdjaalRequest()
-            pastPuzzle.gameUserId = PrefDataShabdjal.getStringPrefs(
-                this@PastPuzzleActivityShabdjaal,
-                PrefDataShabdjal.Key.GAME_USER_ID)
-            pastPuzzle.lang_id = "2"
-            pastPuzzle.app_id = PrefDataShabdjal.getStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_ID)
-            getPastPuzzle(pastPuzzle)
+            intiViews()
+
+            if(!TextUtils.isEmpty(PrefDataShabdjal.getAppLanguageStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_LANGUAGE)) &&
+                PrefDataShabdjal.getAppLanguageStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_LANGUAGE).equals("hindi")) {
+                val pastPuzzle = PastPuzzleShabdjaalRequest()
+                pastPuzzle.gameUserId = PrefDataShabdjal.getStringPrefs(
+                    this@PastPuzzleActivityShabdjaal,
+                    PrefDataShabdjal.Key.GAME_USER_ID)
+                pastPuzzle.lang_id = "1"
+                pastPuzzle.app_id = PrefDataShabdjal.getStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_ID)
+                getPastPuzzle(pastPuzzle)
+            }else{
+                val pastPuzzle = PastPuzzleShabdjaalRequest()
+                pastPuzzle.gameUserId = PrefDataShabdjal.getStringPrefs(
+                    this@PastPuzzleActivityShabdjaal,
+                    PrefDataShabdjal.Key.GAME_USER_ID)
+                pastPuzzle.lang_id = "2"
+                pastPuzzle.app_id = PrefDataShabdjal.getStringPrefs(this@PastPuzzleActivityShabdjaal,PrefDataShabdjal.Key.SHABDJAAL_APP_ID)
+                getPastPuzzle(pastPuzzle)
+            }
+        }catch (e:Exception){
+
         }
+
 
     }
 

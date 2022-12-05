@@ -88,8 +88,8 @@ public class ShabdamActivity extends ShabdamBaseActivity implements GameView, Vi
             minute = getIntent().getStringExtra("minute");
             second = getIntent().getStringExtra("second");
             currentAttempt = getIntent().getStringExtra("currentAttempt");
-            Log.d("time_", minute);
-            Log.d("time_", second);
+            Log.d("time_", "" + minute);
+            Log.d("time_", "" + second);
             showMatraText();
         }
         inIt();
@@ -271,7 +271,7 @@ public class ShabdamActivity extends ShabdamBaseActivity implements GameView, Vi
                     matra[count - 1].append(charArray[i]);
                 }
             }
-            Log.d("", matra.toString());
+            Log.d("", "" + matra.toString());
         } catch (Exception e) {
 
         }
