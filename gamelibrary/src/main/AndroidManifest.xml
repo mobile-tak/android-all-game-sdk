@@ -14,11 +14,10 @@
     <application
         android:hardwareAccelerated="false"
         android:largeHeap="true"
-
         android:requestLegacyExternalStorage="true"
-
         android:usesCleartextTraffic="true"
         tools:ignore="Instantiatable">
+
         <activity
             android:name=".TestActvity"
             android:exported="false" />
@@ -67,7 +66,6 @@
             android:exported="false"
             android:screenOrientation="portrait"/>
 
-
         <activity
             android:name=".crosswordgamesdk.views.activities.varg_paheli_settingActivity.aboutCrossWord.AboutCrosswordActivity"
             android:exported="false" />
@@ -105,10 +103,12 @@
             android:name=".crosswordgamesdk.views.activities.varg_paheli_settingActivity.VargPaheliSettingActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".crosswordgamesdk.views.activities.crossWord_tutorial_activity.TutorialActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".crosswordgamesdk.views.activities.sign_upActivity.SignUpActivity"
             android:exported="false"
