@@ -76,13 +76,6 @@ import android.widget.LinearLayout
 import com.tvtoday.gamelibrary.crosswordgamesdk.controller.*
 import com.tvtoday.gamelibrary.crosswordgamesdk.controller.*
 
-
-
-
-
-
-
-
 class VargPaheliGameActivity : VargPaheliBaseActivity(), View.OnClickListener {
     private var mRewardedAd: RewardedAd? = null
     private var mediaPlayer : MediaPlayer? = null

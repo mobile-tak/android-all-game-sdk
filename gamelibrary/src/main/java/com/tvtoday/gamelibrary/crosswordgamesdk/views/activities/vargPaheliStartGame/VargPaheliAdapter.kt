@@ -14,8 +14,6 @@ import com.tvtoday.gamelibrary.R
 internal class VargPaheliAdapter(
     private val context: Context,
     private val numbersList: ArrayList<CorsswordBoradItem>,
-
-
     ) :BaseAdapter() {
     var currentCellIndex :Int = 0
     var currentAnswerIndexes: ArrayList<Int> =  ArrayList()
@@ -58,7 +56,7 @@ internal class VargPaheliAdapter(
             relativeLay?.setBackgroundColor(Color.parseColor("#909090"));
         }else if(currentAnswerIndexes.contains(position)){
             relativeLay?.setBackgroundColor(Color.parseColor("#60909090"));
-        }else if(numbersList[position].isWronAnswer == true){
+        }else if(numbersList[position].isFreezed == false && numbersList[position].isWronAnswer == true){
             relativeLay?.setBackgroundColor(Color.parseColor("#40FF2F2F"));
         }else{
             relativeLay?.setBackgroundColor(Color.parseColor("#FFFFFF"));
