@@ -293,7 +293,7 @@ class MonthlyPastPuzzleCrossWordActivity : VargPaheliBaseActivity(), View.OnClic
         }
     }
 
-    override fun startActivityForResult(intent: Intent?, requestCode: Int) {
+    override fun startActivityForResult(intent: Intent, requestCode: Int) {
         super.startActivityForResult(intent, requestCode)
 
         if (requestCode == 11110) {
