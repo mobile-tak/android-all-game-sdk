@@ -224,7 +224,8 @@ class PastPuzzleCrosswordActivity : VargPaheliBaseActivity(), View.OnClickListen
         ivCalendar?.setOnClickListener(this@PastPuzzleCrosswordActivity)
     }
 
-    override fun startActivityForResult(intent: Intent?, requestCode: Int) {
+    @Deprecated("Deprecated in Java")
+    override fun startActivityForResult(intent: Intent, requestCode: Int) {
         super.startActivityForResult(intent, requestCode)
 
         if (requestCode == 1111) {
